@@ -1,0 +1,45 @@
+h5 {
+  font-family: Neo Sans Arabic;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 13px;
+  color: #1c1c28;
+}
+
+p {
+  font-family: Neo Sans Arabic;
+  font-size: 14px;
+  font-weight: 400;
+  font-family: Inter;
+  color: #99a1b7;
+
+  svg {
+    color: #92a1ad;
+  }
+}
+
+.filter {
+  button {
+    background-color: #f9f9f9 !important;
+    border: 1px solid #e9eaea !important;
+
+    span {
+      color: #1c1c28;
+      font-family: Neo Sans Arabic;
+      font-size: 12px;
+      font-weight: 400;
+    }
+
+    svg {
+      color: #8a74f9;
+      width: 18px;
+      height: 18px;
+    }
+  }
+}
+
+@media screen and (max-width: 483px) {
+  .header {
+    margin-bottom: 15px;
+  }
+}

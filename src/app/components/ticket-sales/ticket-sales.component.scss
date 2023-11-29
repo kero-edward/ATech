@@ -1,0 +1,122 @@
+.section {
+  background-color: #8a74f9;
+  color: #fff;
+
+  .ticketTitle {
+    font-family: Neo Sans Arabic;
+    font-size: 14px;
+    font-weight: 500;
+  }
+
+  .copy {
+    width: fit-content;
+    margin: auto;
+    span {
+      color: #1c1c28;
+      font-family: Inter;
+      font-size: 13px;
+      font-weight: 500;
+    }
+
+    svg {
+      color: #8a74f9;
+    }
+  }
+
+  p {
+    font-family: Montserrat;
+    font-size: 12px;
+    font-weight: 500;
+  }
+
+  .borderStyle {
+    border-top: 1px dashed white;
+    position: relative;
+
+    &::after {
+      content: "";
+      background-color: #f3f5f7;
+      width: 24px;
+      height: 24px;
+      border-radius: 50%;
+      -webkit-border-radius: 50%;
+      -moz-border-radius: 50%;
+      -ms-border-radius: 50%;
+      -o-border-radius: 50%;
+      position: absolute;
+      left: 0;
+      transform: translate(-50%, -50%);
+      -webkit-transform: translate(-50%, -50%);
+      -moz-transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
+      -o-transform: translate(-50%, -50%);
+    }
+
+    &::before {
+      content: "";
+      background-color: #f3f5f7;
+      width: 24px;
+      height: 24px;
+      border-radius: 50%;
+      -webkit-border-radius: 50%;
+      -moz-border-radius: 50%;
+      -ms-border-radius: 50%;
+      -o-border-radius: 50%;
+      position: absolute;
+      right: 0;
+      transform: translate(50%, -50%);
+      -webkit-transform: translate(50%, -50%);
+      -moz-transform: translate(50%, -50%);
+      -ms-transform: translate(50%, -50%);
+      -o-transform: translate(50%, -50%);
+    }
+  }
+
+  .image {
+    width: 82px;
+  }
+
+  .discount {
+    p {
+      font-family: Neo Sans Arabic;
+      font-size: 14px;
+      font-weight: 400;
+      margin: 0;
+    }
+    span {
+      font-family: Montserrat;
+      font-size: 18px;
+      font-weight: 500;
+    }
+  }
+
+  .share {
+    font-family: Neo Sans Arabic;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 14px;
+
+    svg {
+      transform: rotateY(180deg);
+      -webkit-transform: rotateY(180deg);
+      -moz-transform: rotateY(180deg);
+      -ms-transform: rotateY(180deg);
+      -o-transform: rotateY(180deg);
+    }
+  }
+}
+
+@media screen and (max-width: 430px) {
+  .ticketTitle {
+    display: block;
+    width: 85%;
+  }
+  
+  .copy {
+    width: auto !important;
+  }
+
+  .ticketInfo {
+    justify-content: center !important;
+  }
+}

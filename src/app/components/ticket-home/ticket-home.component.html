@@ -1,0 +1,37 @@
+<section id="ticketHome" class="px-5 pt-5">
+  <div class="my-3 me-5">
+    <div class="navigationHeader d-flex justify-content-between align-items-center mb-4 flex-wrap">
+      <div class="ticketNumber d-flex align-items-center gap-2 flex-wrap">
+        <button class="backBtn rounded d-flex align-items-center justify-content-center flex-wrap">
+          <i class="fa-solid fa-arrow-right"></i>
+        </button>
+        <div class="number">
+          <span>تذكرة رقم #2342</span>
+        </div>
+      </div>
+      <div class="edit">
+        <button class="rounded px-2 py-1">
+          <i class="fa-regular fa-pen-to-square pe-2"></i>
+          <span>تعديل</span>
+        </button>
+      </div>
+    </div>
+    <div class="ticketCoupon">
+      <div class="row g-4">
+        <div class="col-lg-8 col-md-12">
+          <div class="card border-0 p-4 h-100">
+            <app-coupon-chart class="h-100"></app-coupon-chart>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-12">
+          <div class="card border-0 h-100">
+            <app-ticket-sales></app-ticket-sales>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="ticketTable">
+      <app-ticket-table></app-ticket-table>
+    </div>
+  </div>
+</section>

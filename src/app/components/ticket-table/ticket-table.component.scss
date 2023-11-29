@@ -1,0 +1,60 @@
+.ticketTable {
+  font-family: Neo Sans Arabic;
+  font-size: 16px;
+  font-weight: 400;
+
+  .leftSide {
+    .icon {
+      svg {
+        color: #8a74f9;
+        transform: rotateY(180deg);
+        -webkit-transform: rotateY(180deg);
+        -moz-transform: rotateY(180deg);
+        -ms-transform: rotateY(180deg);
+        -o-transform: rotateY(180deg);
+        width: 34px;
+        height: 18px;
+      }
+    }
+
+    p {
+      font-family: Neo Sans Arabic;
+      font-size: 14px;
+      font-weight: 400;
+      margin: 0;
+    }
+
+    .reserveBtn {
+      font-family: Neo Sans Arabic;
+      font-size: 12px;
+      font-weight: 400;
+      background-color: #8a74f9;
+      color: #fcfcfc;
+      cursor: pointer;
+    }
+  }
+}
+
+@media screen and (max-width: 795px) {
+  .rightSide {
+    margin-bottom: 20px;
+  }
+}
+
+@media screen and (max-width: 625px) {
+  .sortIcon,
+  .filterIcon {
+    padding: 16px;
+  }
+}
+
+@media screen and (max-width: 350px) {
+  .searchInput {
+    width: 100%;
+  }
+
+  .sortIcon,
+  .filterIcon {
+    padding: 16px;
+  }
+}
